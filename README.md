@@ -6,11 +6,11 @@ This repository contains a set of scripts designed to automate the creation of N
 
 - **create_containers.sh**: This script automates the process of creating N Ubuntu containers (the image can be replaced). It looks for N available contiguous IP addresses downstream and assigns each IP to a container, matching the container ID with the host part of the IP address.
 
-    **Usage**: `./create_containers.sh 3`
+    **Usage example**: `./create_containers.sh 3`
 
 - **install_spark.sh**: This script automates the process of creating an Apache Spark cluster. It installs Apache Spark on each node and initializes the node with the highest ID as the master and the rest as workers.
 
-    **Usage**: `./install.sh spark-3.5.1-bin-hadoop3.tgz 252 251 250`
+    **Usage example**: `./install.sh spark-3.5.1-bin-hadoop3.tgz 252 251 250`
 
 ## Screenshots
 
