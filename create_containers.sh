@@ -25,7 +25,7 @@ create_container() {
         --arch amd64 \
         --ostype ubuntu \
         --hostname ubuntu-"$host" \
-        --password="77411" \
+        --password="<pass>" \
         --storage local-lvm \
         --rootfs local-lvm:8 \
         --cores 1 \
