@@ -24,6 +24,7 @@ This command creates a `Documents` folder in the home directory if it doesn't ex
 ## Screenshots
 
 ![Screenshot](https://github.com/kyantti/apache_cluster_proxmox/assets/60965663/6aa9d1f8-e1fa-404d-a9e0-6174d8834369)
-![Captura de Pantalla 2024-04-03 a las 17 31 35](https://github.com/kyantti/apache_cluster_proxmox/assets/60965663/011ae605-4d9b-4517-b274-54cb623f70d5)
+![Captura de Pantalla 2024-04-03 a las 17 31 45](https://github.com/kyantti/apache_cluster_proxmox/assets/60965663/9157b78e-f16c-4d76-8f72-3938a4c26449)
+
 
 Feel free to explore the repository and use these scripts to simplify the setup and management of your Apache Spark clusters on Proxmox VE!
