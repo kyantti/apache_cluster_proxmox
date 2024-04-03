@@ -17,7 +17,7 @@ This repository contains a set of scripts designed to automate the creation of N
 ```bash
 mkdir -p /home/Documents && /opt/spark-3.5.1-bin-hadoop3/bin/spark-submit --master spark://10.254.95.253:7077 pi.py > /home/Documents/spark_pi_example.txt
 ```
-This command creates a `Documents` folder in the home directory if it doesn't exist, runs the Spark job, and stores the result in a file named `spark_pi_example.txt` inside `Documents`.
+This command creates a `Documents` folder in the home directory in case it doesn't exist, runs the Spark job and stores the result in a file named `spark_pi_example.txt` inside `Documents`.
 
 **Output**: `Pi is roughly 3.134280`
 
